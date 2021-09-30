@@ -1,0 +1,9 @@
+a = str (input ("Имя: "))
+b = str (input ("Фамилия: "))
+c = int (input ("Год рождения: "))
+print (a, b, str(c), sep='_')
+d = a
+a = b
+b = d
+c = c + 60
+print (a, b, str(c), sep='_')
